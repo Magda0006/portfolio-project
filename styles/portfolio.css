@@ -8,10 +8,17 @@
 body {
   font-family: var(--content-font);
 }
+nav {
+  background-color: var(--secondary-color);
+}
+.home-link {
+  color: var(--accent-color);
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 245px 10px;
+  padding-top: 175px !important;
 }
 h1,
 h2,
@@ -90,5 +97,6 @@ h1 {
   }
   .hero {
     padding: 80px 20px;
+    padding-top: 45px !important;
   }
 }
