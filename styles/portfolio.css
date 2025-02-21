@@ -43,7 +43,8 @@ h1 {
   color: var(--muted-text);
   margin: 36px 0;
 }
-.hero button {
+.contact-me-button {
+  text-decoration: none;
   font-size: 18px;
   background-color: var(--accent-color);
   color: #ffff;
