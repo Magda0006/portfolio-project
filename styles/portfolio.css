@@ -1,19 +1,30 @@
 :root {
   --title-font: "Playfair Display", serif;
   --content-font: "Poppins", serif;
+  --accent-color: #5982ff;
+  --secondary-color: #dfe9f8;
+}
+body {
+  font-family: var(--content-font);
 }
 .hero {
-  background-color: #dfe9f8;
+  background-color: var(--secondary-color);
   text-align: center;
   padding: 245px 10px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+}
 .hero p {
-  font-family: var(--content-font);
   font-size: 36px;
   font-weight: 700;
 }
 h1 {
-  font-family: var(--title-font);
   font-size: 96px;
   font-weight: bold;
 }
@@ -26,7 +37,7 @@ h1 {
 }
 .hero button {
   font-size: 18px;
-  background-color: #5982ff;
+  background-color: var(--accent-color);
   color: #ffff;
   border: none;
   border-radius: 4px;
