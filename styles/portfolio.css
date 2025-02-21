@@ -5,21 +5,16 @@
   --secondary-color: #dfe9f8;
   --muted-text: rgba(39, 33, 66, 1);
 }
+
+/* generic styles */
+
 body {
   font-family: var(--content-font);
-}
-nav {
-  background-color: var(--secondary-color);
 }
 .home-link {
   color: var(--accent-color);
 }
-.hero {
-  background-color: var(--secondary-color);
-  text-align: center;
-  padding: 245px 10px;
-  padding-top: 175px !important;
-}
+
 h1,
 h2,
 h3,
@@ -28,11 +23,48 @@ h5,
 h6 {
   font-family: var(--title-font);
 }
+h1,
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 65px;
+  color: var(--muted-text);
+  opacity: 70%;
+  line-height: 30px;
+}
+.button {
+  text-decoration: none;
+  font-size: 18px;
+  background-color: var(--accent-color);
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  padding: 18px 50px;
+}
+
+/* specific styles */
+
+/* Homepage */
+
+.homepage-nav {
+  background-color: var(--secondary-color);
+}
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 245px 10px;
+  padding-top: 175px !important;
+}
 .hero p {
+  opacity: 100%;
   font-size: 36px;
   font-weight: 700;
+  margin-bottom: 21px;
 }
-h1 {
+.hero h1 {
   font-size: 96px;
   font-weight: bold;
 }
@@ -42,15 +74,7 @@ h1 {
   font-weight: 400;
   color: var(--muted-text);
   margin: 36px 0;
-}
-.contact-me-button {
-  text-decoration: none;
-  font-size: 18px;
-  background-color: var(--accent-color);
-  color: #ffff;
-  border: none;
-  border-radius: 4px;
-  padding: 18px 50px;
+  margin-bottom: 57px;
 }
 .content-description {
   font-size: 18px;
@@ -59,22 +83,27 @@ h1 {
 .project-description {
   padding: 120px 60px;
 }
-.homepage-projects h2 {
-  font-size: 64px;
-  font-weight: bold;
-}
-.homepage-projects p {
-  margin-bottom: 65px;
-  color: var(--muted-text);
-  opacity: 70%;
-  line-height: 30px;
-}
 .homepage-projects a {
   text-decoration: none;
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   padding: 18px 30px;
+}
+
+/* About page */
+.about-header {
+  padding: 96px 42px;
+}
+.about-header h1 {
+  line-height: 85px;
+}
+.about-header h2 {
+  font-family: var(--content-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 36px 0;
 }
 @media (max-width: 992px) {
   .project-description {
@@ -99,5 +128,12 @@ h1 {
   .hero {
     padding: 80px 20px;
     padding-top: 45px !important;
+  }
+  .about-header {
+    text-align: center;
+    padding: 0 15px;
+  }
+  .about-header img {
+    margin-top: 55px;
   }
 }
