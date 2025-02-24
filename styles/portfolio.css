@@ -7,6 +7,35 @@
 }
 
 /* generic styles */
+.home-nav {
+  background-color: var(--secondary-color);
+}
+div.navigation {
+  padding: 0 5%;
+}
+nav {
+  padding: 40px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  text-decoration: none;
+  margin-left: 10px;
+}
+nav a {
+  color: var(--muted-text);
+  opacity: 70%;
+  text-decoration: none;
+}
+nav li.active a,
+nav a:hover {
+  color: var(--accent-color);
+  opacity: 100%;
+  transition: all 100ms ease-in-out;
+}
 
 body {
   font-family: var(--content-font);
@@ -150,5 +179,9 @@ p {
   }
   .content img {
     margin-top: 55px;
+  }
+
+  nav a {
+    font-size: 13px;
   }
 }
