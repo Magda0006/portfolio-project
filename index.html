@@ -25,17 +25,22 @@
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Portfolio</title>
+
+    <meta
+      name="description"
+      content="Magda is a front-end engineer based in Itlay. Graduated from SheCodes Academy."
+    />
+    <title>Front-end developer - Magda Tudora</title>
   </head>
   <body>
     <div class="navigation home-nav">
       <nav class="d-flex justify-content-between">
         <i class="fa-sharp-duotone fa-regular fa-heart fa-lg"></i>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About me">About</a></li>
+          <li><a href="/work.html" title="My work">Work</a></li>
+          <li><a href="/contact.html" title="Contact me">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -43,7 +48,7 @@
       <p>Hi, I am</p>
       <h1>Magda Tudora</h1>
       <h2>Front-end Developer, based in Italy.</h2>
-      <a class="button" href="#">Contact me</a>
+      <a class="button" href="/contact.html" title="Contact me">Contact me</a>
     </div>
 
     <p class="m-5 text-center content-description">
@@ -53,7 +58,11 @@
       <div class="homepage-projects">
         <div class="row mb-5 align-items-center">
           <div class="col-6 d-none d-lg-block">
-            <img src="images/weather-app.jpeg" class="img-fluid" />
+            <img
+              src="images/weather-app.jpeg"
+              alt="Weather APP"
+              class="img-fluid"
+            />
           </div>
 
           <div class="col-lg-6">
@@ -68,6 +77,7 @@
                 href="https://magdasfirstdesignedapp.netlify.app/"
                 target="_blank"
                 class="weather-app-button"
+                title="Weather App"
                 >View project</a
               >
             </div>
@@ -87,17 +97,26 @@
                 href="https://magdas-ai-generator.netlify.app/"
                 target="_blank"
                 class="weather-app-button"
+                title="AI recepie generator"
                 >View project</a
               >
             </div>
           </div>
           <div class="col-6 d-none d-lg-block">
-            <img src="images/ai-recepies.jpeg" class="img-fluid" />
+            <img
+              src="images/ai-recepies.jpeg"
+              alt="AI recepie generator"
+              class="img-fluid"
+            />
           </div>
         </div>
         <div class="world-clock row align-items-center">
           <div class="col-6 d-none d-lg-block">
-            <img src="images/world-clock-app.jpeg" class="img-fluid" />
+            <img
+              src="images/world-clock-app.jpeg"
+              alt="World-clock App"
+              class="img-fluid"
+            />
           </div>
           <div class="col-lg-6">
             <div class="project-description">
@@ -111,6 +130,7 @@
                 href="https://world-clock-project-magda.netlify.app/"
                 target="_blank"
                 class="weather-app-button"
+                title="World-clock App"
                 >View project</a
               >
             </div>
@@ -124,11 +144,16 @@
             <p class="mb-0">Let's work togheter!</p>
           </div>
           <div class="align-self-center">
-            <a href="/contact.html" class="button">Let's talk here</a>
+            <a href="/contact.html" title="Contact me" class="button"
+              >Let's talk here</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <a class="email-link" href="mailto:tudoramariamagdalena00@gmail.com"
+          <a
+            class="email-link"
+            title="Email me"
+            href="mailto:tudoramariamagdalena00@gmail.com"
             >tudoramariamagdalena00@gmail.com</a
           >
         </div>
@@ -136,13 +161,27 @@
           <a
             href="https://www.linkedin.com/in/maria-magdalena-tudora/"
             target="_blank"
+            title="Linkedin profile"
           >
             <i class="fa-brands fa-linkedin-in"></i
           ></a>
-          <a href="https://github.com/Magda0006" target="_blank">
+          <a
+            href="https://github.com/Magda0006"
+            target="_blank"
+            title="GitHub profile"
+          >
             <i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center">
+          👩🏻‍💻 This project was coded by Magda Tudora, and it is
+          <a
+            href="https://github.com/Magda0006/portfolio-project"
+            title="Project details"
+            target="_blank"
+            >open sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
