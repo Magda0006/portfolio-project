@@ -91,14 +91,14 @@ p {
   padding: 18px 30px;
 }
 
-/* About page */
-.about-header {
+/* Content class */
+.content {
   padding: 96px 42px;
 }
-.about-header h1 {
+.content h1 {
   line-height: 85px;
 }
-.about-header h2 {
+.content h2 {
   font-family: var(--content-font);
   font-size: 18px;
   font-weight: 700;
@@ -129,11 +129,11 @@ p {
     padding: 80px 20px;
     padding-top: 45px !important;
   }
-  .about-header {
+  .content {
     text-align: center;
     padding: 0 15px;
   }
-  .about-header img {
+  .content img {
     margin-top: 55px;
   }
 }
