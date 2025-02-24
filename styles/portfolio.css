@@ -57,6 +57,10 @@ h2 {
   font-size: 64px;
   font-weight: bold;
 }
+h4 {
+  font-size: 48px;
+  font-weight: bold;
+}
 p {
   font-size: 16px;
   margin-bottom: 65px;
@@ -148,7 +152,40 @@ p {
   font-size: 14px;
   margin-bottom: 0px;
 }
-
+footer {
+  padding: 20px 0;
+}
+footer .work-inquiry {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  margin: 92px 8%;
+  border-radius: 20px;
+  padding: 49px 119px;
+}
+footer .work-inquiry .button {
+  padding: ;
+}
+footer .email-link {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+footer .email-link:hover {
+  color: var(--accent-color);
+}
+footer .socials-links a {
+  color: var(--accent-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  margin: 30px 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .socials-links a:hover {
+  color: white;
+  background: var(--accent-color);
+}
 @media (max-width: 992px) {
   .project-description {
     text-align: center;
@@ -183,5 +220,12 @@ p {
 
   nav a {
     font-size: 13px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  .work-inquiry .button {
+    padding: 15px 25px;
+    font-size: 17px;
   }
 }
